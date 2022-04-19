@@ -3,6 +3,18 @@
 ## Objective:
 
 Create a web application to perform guided asset portfolio allocation with machine learning models.
+<br />
+<br />
+
+## Dependencies
+- The source code is written in Python 3.
+- Python packages : flask, yfinance, sqlalchemy, psycopg2-binary
+- ML-Flow (with Bucket S3, Posgresql Server)
+- Posgresql Server for web server
+- API for Inference
+
+<br />
+
 
 ## Team contributors
 G. Richard, J. Jaewook, T. Steve, C. Samuel

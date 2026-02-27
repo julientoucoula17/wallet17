@@ -1,20 +1,33 @@
-<h1> Wallet17 </h1>
+<h1> Wallet17 - Guided Asset Portfolio Allocation Platform with Machine Learning</h1>
 
-## Objective:
+## Context
+Developed a scalable web application for guided portfolio allocation using deep learning and optimization to maximize risk-adjusted returns. Designed for finance, banking, and insurance with compliance, auditability, and operational efficiency.
 
-Create a web application to perform guided asset portfolio allocation with machine learning models.
-<br />
-<br />
+## Objective
+Automate and enhance asset allocation strategies by integrating real-time market data, LSTM predictive modeling, and a secure interface tailored to investor profiles.
 
-## Dependencies
-- The source code is written in Python 3.
-- Python packages : flask, yfinance, sqlalchemy, psycopg2-binary
-- ML-Flow (with Bucket S3, Posgresql Server)
-- Posgresql Server for web server
-- API for Inference
+## Business Value
+- Improved decision-making via historical trends + ML forecasts.
+- Reduced allocation/rebalancing time and operational risk.
+- Compliance-ready with full traceability of decisions and changes.
+- Adaptable to wealth management and insurance investment strategies.
 
-<br />
+## Technical Stack
+- Backend & API: Python 3, Flask (RESTful)
+- ML: LSTM forecasting, custom optimization engine
+- Data Sources: yfinance, custom inference API
+- Database: PostgreSQL, SQLAlchemy ORM, S3-compatible storage
+- MLOps: MLflow for tracking, model versioning, reproducibility
+- Deployment: Dockerized for scalable production
 
+## Key Features
+- Real-time data retrieval, preprocessing, and forecasting
+- Allocation based on investor profile, forecasts, and risk optimization
+- Role-based authentication, secure access, model version control
+- End-to-end audit trail for allocations and decisions
+
+## Role & Delivery
+Agile team of four; contributed to ML pipeline (LSTM), backend integration, DB design, and deployment automation. Applied CI/CD for reliable releases.
 
 ## Team contributors
 G. Richard, J. Jaewook, T. Steve, C. Samuel
